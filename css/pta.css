@@ -1,0 +1,134 @@
+/*
+Coopers Lane PTA
+tom@tomroyal.com
+
+font-family: soleil, sans-serif;
+font-weight: 700; 500;
+font-style: normal;
+
+*/
+
+body {
+  font-family: minion-pro, fantasy;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: soleil, fantasy;
+  font-weight: 700;
+  font-style: normal;  
+}  
+
+.soleilregular {
+  font-family: soleil, sans-serif;
+  font-weight: 500;
+  font-style: normal;  
+}
+
+.subhead {
+  font-size: 2rem;
+}
+
+.white {
+  color: #fff!important;
+}
+
+.cooperspurple {
+  color: rgb(85,48,145);
+}  
+
+.mbtm0 {
+  margin-bottom: 0px;
+}
+
+.mtop20 {
+  margin-top: 20px;
+}
+
+.photocaption {
+  font-family: soleil, sans-serif;
+  font-weight: 500;
+  font-style: normal;  
+}
+
+.tricon {
+  margin-left: 7px;
+}
+
+.dycbutton {
+  background-color: rgb(85,48,145);
+  color: #fff;
+  font-family: soleil, sans-serif;
+  font-weight: 500;
+  font-style: normal;  
+}
+
+a {
+  color: rgb(85,48,145);
+  text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(85,48,145);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(85,48,145);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(85,48,145);
+    text-decoration: underline;
+}
+
+.purplesidebox {
+  background-color: rgb(85,48,145);
+  color: #fff;
+  padding: 20px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.whitesidebox {
+  padding: 20px;
+  border-radius: 3px;
+  border: 3px solid rgb(85,48,145);
+}
+.noul {
+  text-decoration: none!important;
+}
+
+#topright {
+  text-align: right;
+  font-size: 3rem;
+}
+
+#ptaheader {
+  background-color: rgb(85,48,145);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#ptabody {
+  margin-top: 20px;
+}
+
+#ptafooter {
+  background-color: rgb(85,48,145);
+  margin-top:40px;
+  margin-bottom: 0px;
+  padding: 20px;
+}
+
+.mobileonly {
+  display: none;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  #topright { display: none; }  
+  .desktoponly {display:none; }
+  .mobileonly {display:block; }
+}
