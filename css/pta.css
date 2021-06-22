@@ -20,6 +20,12 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;  
 }  
 
+.alert {
+  padding: 15px;
+  background-color: #FFFFCC;
+  font-family: soleil, sans-serif;
+}
+
 .soleilregular {
   font-family: soleil, sans-serif;
   font-weight: 500;
