@@ -1,4 +1,4 @@
 DirectoryIndex index.html
 RewriteEngine On
 
-RewriteRule    ^moonshot/$                         moonshot.html    [QSA,NC,L]
+RewriteRule    ^moonshot/?$                         moonshot.html    [QSA,NC,L]
