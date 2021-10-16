@@ -8,6 +8,12 @@ font-style: normal;
 
 */
 
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+
 body {
   font-family: minion-pro, fantasy;
   font-weight: 400;
@@ -51,6 +57,11 @@ h1, h2, h3, h4, h5, h6 {
 .mtop20 {
   margin-top: 20px;
 }
+
+.mtop40 {
+  margin-top: 40px;
+}
+
 
 .photocaption {
   font-family: soleil, sans-serif;
