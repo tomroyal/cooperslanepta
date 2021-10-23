@@ -2,4 +2,5 @@ DirectoryIndex index.html
 RewriteEngine On
 
 RewriteRule    ^moonshot/?$                         moonshot.html    [QSA,NC,L]
+RewriteRule    ^signup/?$                           signupform.html    [QSA,NC,L]
 RewriteRule    ^moon/?$                             moon_1.html    [QSA,NC,L]
